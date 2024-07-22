@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+#game-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+#word-display {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+#score-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.attempt-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.attempt-row span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 4px;
+}
+
+.correct {
+  background-color: red;
+  color: white;
+}
+
+.misplaced {
+  background-color: yellow;
+  color: black;
+  border-radius: 50%;
+}
+
+.wrong {
+  background-color: blue;
+  color: white;
+}
